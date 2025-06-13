@@ -1,9 +1,8 @@
 import React from "react";
 import { FaClock } from "react-icons/fa";
+import doctorsImage from "../images/BothTheDoctorsTogether.jpg";
 
 const Schedule = () => {
-  const doctorsImage = "/assets/BothTheDoctorsTogether.jpg";
-
   const openingHours = [
     { day: "Monday", hours: "9:00 AM - 6:00 PM" },
     { day: "Tuesday", hours: "9:00 AM - 6:00 PM" },

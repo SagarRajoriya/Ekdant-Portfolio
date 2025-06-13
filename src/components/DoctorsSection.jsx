@@ -1,5 +1,7 @@
 import React from "react";
 import DoctorCard from "./DoctorCard";
+import drShraddhaSmiling from "../images/Dr.ShraddhaSharmaSmiling.jpg";
+import drVijaySharma from "../images/Dr.VijaySharmaWorking.jpg";
 
 const DoctorsSection = () => {
   const doctors = [
@@ -9,8 +11,7 @@ const DoctorsSection = () => {
       qualification: "BDS",
       experience: "More than 5 years",
       specialization: "General Dentistry",
-      // Direct path for Vercel
-      image: "/assets/Dr.ShraddhaSharmaSmiling.jpg",
+      image: drShraddhaSmiling,
     },
     {
       id: 2,
@@ -18,8 +19,7 @@ const DoctorsSection = () => {
       qualification: "MDS",
       experience: "More than 8 years",
       specialization: "Maxillofacial Surgeon",
-      // Direct path for Vercel
-      image: "/assets/Dr.VijaySharmaWorking.jpg",
+      image: drVijaySharma,
     },
   ];
 

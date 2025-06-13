@@ -1,5 +1,6 @@
 import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
+import aboutImage from "../images/Dr.ShraddhaSharmaWorking.jpg";
 
 const About = () => {
   return (
@@ -16,7 +17,7 @@ const About = () => {
           <div className="lg:w-1/2">
             <div className="rounded-lg overflow-hidden shadow-xl hover-glow">
               <img
-                src="/assets/Dr.ShraddhaSharmaWorking.jpg"
+                src={aboutImage}
                 alt="Ekdant Dental Clinic"
                 className="w-full h-auto object-cover"
               />
