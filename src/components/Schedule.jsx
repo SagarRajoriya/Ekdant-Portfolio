@@ -2,6 +2,8 @@ import React from "react";
 import { FaClock } from "react-icons/fa";
 
 const Schedule = () => {
+  const doctorsImage = `${process.env.PUBLIC_URL}/assets/BothTheDoctorsTogether.jpg`;
+
   const openingHours = [
     { day: "Monday", hours: "9:00 AM - 6:00 PM" },
     { day: "Tuesday", hours: "9:00 AM - 6:00 PM" },
@@ -67,7 +69,7 @@ const Schedule = () => {
           <div className="md:w-1/2">
             <div className="rounded-lg overflow-hidden shadow-xl hover-glow">
               <img
-                src="/assets/BothTheDoctorsTogether.jpg"
+                src={doctorsImage}
                 alt="Ekdant Dental Clinic Interior"
                 className="w-full h-auto"
               />

@@ -2,13 +2,18 @@ import React from "react";
 import { FaRegCalendarCheck } from "react-icons/fa";
 
 const Hero = () => {
+  const coverPageUrl = `${process.env.PUBLIC_URL}/assets/CoverPage.jpg`;
+
   return (
     <section id="home" className="relative h-screen flex items-center">
       {/* Background gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-dark via-dark/80 to-dark z-10"></div>
 
-      {/* Hero background image - updated with your actual image */}
-      <div className="absolute inset-0 bg-[url('/assets/CoverPage.jpg')] bg-cover bg-center"></div>
+      {/* Hero background image - fixed path for Vercel */}
+      <div
+        className="absolute inset-0 bg-cover bg-center"
+        style={{ backgroundImage: `url(${coverPageUrl})` }}
+      ></div>
 
       <div className="container mx-auto px-6 relative z-20">
         <div className="max-w-xl">
