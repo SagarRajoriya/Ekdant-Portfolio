@@ -7,10 +7,12 @@ import Services from "./components/Services";
 import Schedule from "./components/Schedule";
 import Appointment from "./components/Appointment";
 import Footer from "./components/Footer";
+import ImageDebug from "./components/ImageDebug"; // Add this import
 
 function App() {
   return (
     <div className="min-h-screen bg-dark">
+      <ImageDebug /> {/* Add this component */}
       <Header />
       <main>
         <Hero />

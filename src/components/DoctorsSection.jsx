@@ -9,8 +9,8 @@ const DoctorsSection = () => {
       qualification: "BDS",
       experience: "More than 5 years",
       specialization: "General Dentistry",
-      // Fixed image path for Vercel
-      image: `${process.env.PUBLIC_URL}/assets/Dr.ShraddhaSharmaSmiling.jpg`,
+      // Direct path for Vercel
+      image: "/assets/Dr.ShraddhaSharmaSmiling.jpg",
     },
     {
       id: 2,
@@ -18,8 +18,8 @@ const DoctorsSection = () => {
       qualification: "MDS",
       experience: "More than 8 years",
       specialization: "Maxillofacial Surgeon",
-      // Fixed image path for Vercel
-      image: `${process.env.PUBLIC_URL}/assets/Dr.VijaySharmaWorking.jpg`,
+      // Direct path for Vercel
+      image: "/assets/Dr.VijaySharmaWorking.jpg",
     },
   ];
 

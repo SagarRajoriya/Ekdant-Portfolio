@@ -2,8 +2,6 @@ import React from "react";
 import { FaCheckCircle } from "react-icons/fa";
 
 const About = () => {
-  const doctorImage = `${process.env.PUBLIC_URL}/assets/Dr.ShraddhaSharmaWorking.jpg`;
-
   return (
     <section id="about" className="py-20 bg-secondary">
       <div className="container mx-auto px-6">
@@ -18,7 +16,7 @@ const About = () => {
           <div className="lg:w-1/2">
             <div className="rounded-lg overflow-hidden shadow-xl hover-glow">
               <img
-                src={doctorImage}
+                src="/assets/Dr.ShraddhaSharmaWorking.jpg"
                 alt="Ekdant Dental Clinic"
                 className="w-full h-auto object-cover"
               />

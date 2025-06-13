@@ -2,7 +2,7 @@ import React from "react";
 import { FaClock } from "react-icons/fa";
 
 const Schedule = () => {
-  const doctorsImage = `${process.env.PUBLIC_URL}/assets/BothTheDoctorsTogether.jpg`;
+  const doctorsImage = "/assets/BothTheDoctorsTogether.jpg";
 
   const openingHours = [
     { day: "Monday", hours: "9:00 AM - 6:00 PM" },
