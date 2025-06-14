@@ -1,7 +1,7 @@
 import React from "react";
 import DoctorCard from "./DoctorCard";
-import drShraddhaSmiling from "./assets/Dr.ShraddhaSharmaSmiling.jpg";
-import drVijaySharma from "./assets/Dr.VijaySharmaWorking.jpg";
+import drShraddhaSmiling from "../images/Dr.ShraddhaSharmaSmiling.jpg";
+import drVijaySharma from "../images/Dr.VijaySharmaWorking.jpg";
 
 const DoctorsSection = () => {
   const doctors = [

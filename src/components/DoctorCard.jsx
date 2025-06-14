@@ -26,24 +26,24 @@ const DoctorCard = ({
           <p className="text-light/70 text-sm">{experience} of Experience</p>
         </div>
         <div className="flex space-x-4 text-light/70">
-          <a
-            href="#"
+          <button
             className="hover:text-primary transition-colors duration-300"
+            aria-label="LinkedIn Profile"
           >
             <FaLinkedin size={18} />
-          </a>
-          <a
-            href="#"
+          </button>
+          <button
             className="hover:text-primary transition-colors duration-300"
+            aria-label="Email Contact"
           >
             <FaEnvelope size={18} />
-          </a>
-          <a
-            href="#"
+          </button>
+          <button
             className="hover:text-primary transition-colors duration-300"
+            aria-label="Phone Contact"
           >
             <FaPhone size={18} />
-          </a>
+          </button>
         </div>
       </div>
     </div>
