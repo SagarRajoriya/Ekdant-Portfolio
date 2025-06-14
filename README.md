@@ -21,7 +21,7 @@ A modern, responsive website for Ekdant Dental Clinic built with React and Tailw
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/yourusername/ekdantportfolio.git
+   git clone https://github.com/SagarRajoriya/ekdantportfolio.git
    cd ekdantportfolio
    ```
 
