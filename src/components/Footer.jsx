@@ -18,30 +18,30 @@ const Footer = () => {
               and satisfaction since 2010.
             </p>
             <div className="flex space-x-4">
-              <a
-                href="#"
+              <button
                 className="text-light/70 hover:text-primary transition-colors duration-300"
+                aria-label="Facebook"
               >
                 <FaFacebook size={20} />
-              </a>
-              <a
-                href="#"
+              </button>
+              <button
                 className="text-light/70 hover:text-primary transition-colors duration-300"
+                aria-label="Instagram"
               >
                 <FaInstagram size={20} />
-              </a>
-              <a
-                href="#"
+              </button>
+              <button
                 className="text-light/70 hover:text-primary transition-colors duration-300"
+                aria-label="Twitter"
               >
                 <FaTwitter size={20} />
-              </a>
-              <a
-                href="#"
+              </button>
+              <button
                 className="text-light/70 hover:text-primary transition-colors duration-300"
+                aria-label="LinkedIn"
               >
                 <FaLinkedin size={20} />
-              </a>
+              </button>
             </div>
           </div>
 
